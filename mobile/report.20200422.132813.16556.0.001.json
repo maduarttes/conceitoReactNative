@@ -1,0 +1,598 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200422.132813.16556.0.001.json",
+    "dumpEventTime": "2020-04-22T13:28:13Z",
+    "dumpEventTimeStamp": "1587572893118",
+    "processId": 16556,
+    "cwd": "D:\\Users\\Matheus Duarte\\Documents\\conceitoReactNative\\mobile",
+    "commandLine": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\Users\\Matheus Duarte\\Documents\\conceitoReactNative\\mobile\\node_modules\\.bin\\\\..\\jest\\bin\\jest.js"
+    ],
+    "nodejsVersion": "v12.16.1",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.16.1",
+      "v8": "7.8.279.23-node.31",
+      "uv": "1.34.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.4",
+      "http_parser": "2.9.3",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.16.1/node-v12.16.1-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.16.1/node-v12.16.1.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.16.1/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.18363",
+    "osVersion": "Windows 10 Pro",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "AMD Ryzen 7 2700X Eight-Core Processor         ",
+        "speed": 3693,
+        "user": 9842718,
+        "nice": 0,
+        "sys": 4140437,
+        "idle": 35191250,
+        "irq": 1874796
+      },
+      {
+        "model": "AMD Ryzen 7 2700X Eight-Core Processor         ",
+        "speed": 3693,
+        "user": 3189875,
+        "nice": 0,
+        "sys": 597359,
+        "idle": 45386906,
+        "irq": 63015
+      },
+      {
+        "model": "AMD Ryzen 7 2700X Eight-Core Processor         ",
+        "speed": 3693,
+        "user": 4462093,
+        "nice": 0,
+        "sys": 1241781,
+        "idle": 43470265,
+        "irq": 63250
+      },
+      {
+        "model": "AMD Ryzen 7 2700X Eight-Core Processor         ",
+        "speed": 3693,
+        "user": 2478343,
+        "nice": 0,
+        "sys": 349328,
+        "idle": 46346468,
+        "irq": 28921
+      },
+      {
+        "model": "AMD Ryzen 7 2700X Eight-Core Processor         ",
+        "speed": 3693,
+        "user": 4577062,
+        "nice": 0,
+        "sys": 817187,
+        "idle": 43779890,
+        "irq": 35406
+      },
+      {
+        "model": "AMD Ryzen 7 2700X Eight-Core Processor         ",
+        "speed": 3693,
+        "user": 2544625,
+        "nice": 0,
+        "sys": 306843,
+        "idle": 46322671,
+        "irq": 25578
+      },
+      {
+        "model": "AMD Ryzen 7 2700X Eight-Core Processor         ",
+        "speed": 3693,
+        "user": 3588718,
+        "nice": 0,
+        "sys": 567718,
+        "idle": 45017703,
+        "irq": 35609
+      },
+      {
+        "model": "AMD Ryzen 7 2700X Eight-Core Processor         ",
+        "speed": 3693,
+        "user": 3156468,
+        "nice": 0,
+        "sys": 509625,
+        "idle": 45508046,
+        "irq": 26984
+      },
+      {
+        "model": "AMD Ryzen 7 2700X Eight-Core Processor         ",
+        "speed": 3693,
+        "user": 3685546,
+        "nice": 0,
+        "sys": 654375,
+        "idle": 44834218,
+        "irq": 37421
+      },
+      {
+        "model": "AMD Ryzen 7 2700X Eight-Core Processor         ",
+        "speed": 3693,
+        "user": 1620281,
+        "nice": 0,
+        "sys": 191968,
+        "idle": 47361890,
+        "irq": 24265
+      },
+      {
+        "model": "AMD Ryzen 7 2700X Eight-Core Processor         ",
+        "speed": 3693,
+        "user": 3224140,
+        "nice": 0,
+        "sys": 528750,
+        "idle": 45421250,
+        "irq": 32671
+      },
+      {
+        "model": "AMD Ryzen 7 2700X Eight-Core Processor         ",
+        "speed": 3693,
+        "user": 1740093,
+        "nice": 0,
+        "sys": 288140,
+        "idle": 47145906,
+        "irq": 28921
+      },
+      {
+        "model": "AMD Ryzen 7 2700X Eight-Core Processor         ",
+        "speed": 3693,
+        "user": 2968281,
+        "nice": 0,
+        "sys": 563046,
+        "idle": 45642812,
+        "irq": 32406
+      },
+      {
+        "model": "AMD Ryzen 7 2700X Eight-Core Processor         ",
+        "speed": 3693,
+        "user": 1550281,
+        "nice": 0,
+        "sys": 202187,
+        "idle": 47421671,
+        "irq": 23875
+      },
+      {
+        "model": "AMD Ryzen 7 2700X Eight-Core Processor         ",
+        "speed": 3693,
+        "user": 2184281,
+        "nice": 0,
+        "sys": 298828,
+        "idle": 46691031,
+        "irq": 29765
+      },
+      {
+        "model": "AMD Ryzen 7 2700X Eight-Core Processor         ",
+        "speed": 3693,
+        "user": 10134906,
+        "nice": 0,
+        "sys": 1256500,
+        "idle": 37782734,
+        "irq": 53265
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "Ethernet 4",
+        "internal": false,
+        "mac": "d4:5d:64:34:7b:9c",
+        "address": "2804:431:cff1:61b7:6028:78bf:94a:afba",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Ethernet 4",
+        "internal": false,
+        "mac": "d4:5d:64:34:7b:9c",
+        "address": "2804:431:cff1:61b7:28d6:e35c:e56:c026",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Ethernet 4",
+        "internal": false,
+        "mac": "d4:5d:64:34:7b:9c",
+        "address": "fe80::6028:78bf:94a:afba",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 13
+      },
+      {
+        "name": "Ethernet 4",
+        "internal": false,
+        "mac": "d4:5d:64:34:7b:9c",
+        "address": "192.168.15.32",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "vEthernet (Default Switch)",
+        "internal": false,
+        "mac": "00:15:5d:de:82:b0",
+        "address": "fe80::31f3:d4db:11d5:129",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 21
+      },
+      {
+        "name": "vEthernet (Default Switch)",
+        "internal": false,
+        "mac": "00:15:5d:de:82:b0",
+        "address": "192.168.37.225",
+        "netmask": "255.255.255.240",
+        "family": "IPv4"
+      }
+    ],
+    "host": "DUARTTES-HOME"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff70a7a19f9",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+10873"
+    },
+    {
+      "pc": "0x00007ff70a7a5e1c",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+28316"
+    },
+    {
+      "pc": "0x00007ff70a7a4dd8",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+24152"
+    },
+    {
+      "pc": "0x00007ff70a8a34cb",
+      "symbol": "v8::base::CPU::has_sse+38363"
+    },
+    {
+      "pc": "0x00007ff70b0b9f4e",
+      "symbol": "v8::Isolate::ReportExternalAllocationLimitReached+94"
+    },
+    {
+      "pc": "0x00007ff70b0a2021",
+      "symbol": "v8::SharedArrayBuffer::Externalize+833"
+    },
+    {
+      "pc": "0x00007ff70af6e57c",
+      "symbol": "v8::internal::Heap::EphemeronKeyWriteBarrierFromCode+1436"
+    },
+    {
+      "pc": "0x00007ff70af797d0",
+      "symbol": "v8::internal::Heap::ProtectUnprotectedMemoryChunks+1312"
+    },
+    {
+      "pc": "0x00007ff70af762f4",
+      "symbol": "v8::internal::Heap::PageFlagsAreConsistent+3204"
+    },
+    {
+      "pc": "0x00007ff70af6bb13",
+      "symbol": "v8::internal::Heap::CollectGarbage+1283"
+    },
+    {
+      "pc": "0x00007ff70af6a184",
+      "symbol": "v8::internal::Heap::AddRetainedMap+2452"
+    },
+    {
+      "pc": "0x00007ff70af8b36d",
+      "symbol": "v8::internal::Factory::NewFillerObject+61"
+    },
+    {
+      "pc": "0x00007ff70acf0c51",
+      "symbol": "v8::internal::interpreter::JumpTableTargetOffsets::iterator::operator=+1665"
+    },
+    {
+      "pc": "0x00007ff70b504ddd",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+546637"
+    },
+    {
+      "pc": "0x00007ff70b505ed3",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+550979"
+    },
+    {
+      "pc": "0x0000017f2b9718f9",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2160357376,
+    "totalCommittedMemory": 2160357376,
+    "usedMemory": 2121140712,
+    "availableMemory": 57821048,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 32808,
+        "used": 32808,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 19398656,
+        "committedMemory": 19398656,
+        "capacity": 9688968,
+        "used": 165224,
+        "available": 9523744
+      },
+      "old_space": {
+        "memorySize": 1644576768,
+        "committedMemory": 1644576768,
+        "capacity": 1627458176,
+        "used": 1626307760,
+        "available": 1150416
+      },
+      "code_space": {
+        "memorySize": 1740800,
+        "committedMemory": 1740800,
+        "capacity": 1527616,
+        "used": 1527616,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 2625536,
+        "committedMemory": 2625536,
+        "capacity": 1433440,
+        "used": 1433440,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 491704320,
+        "committedMemory": 491704320,
+        "capacity": 491671080,
+        "used": 491671080,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 2784,
+        "used": 2784,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 9688968,
+        "used": 0,
+        "available": 9688968
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 572.093,
+    "kernelCpuSeconds": 6.687,
+    "cpuConsumptionPercent": 122.623,
+    "maxRss": 2369454080,
+    "pageFaults": {
+      "IORequired": 2073871,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 4672,
+      "writes": 41
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "=D:": "D:\\Users\\Matheus Duarte\\Documents\\conceitoReactNative\\mobile",
+    "ACLOCAL_PATH": "C:\\Program Files\\Git\\mingw64\\share\\aclocal;C:\\Program Files\\Git\\usr\\share\\aclocal",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "ANDROID_HOME": "C:\\Android\\Sdk",
+    "APPDATA": "C:\\Users\\Matheus Duarte\\AppData\\Roaming",
+    "APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL": "true",
+    "ChocolateyInstall": "C:\\ProgramData\\chocolatey",
+    "ChocolateyLastPathUpdate": "132315339149002206",
+    "CLASSPATH": ".;",
+    "COLORTERM": "truecolor",
+    "COMMONPROGRAMFILES": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "DUARTTES-HOME",
+    "COMSPEC": "C:\\Windows\\system32\\cmd.exe",
+    "CONFIG_SITE": "C:/Program Files/Git/mingw64/etc/config.site",
+    "DISPLAY": "needs-to-be-defined",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "EXEPATH": "C:\\Program Files\\Git",
+    "FPS_BROWSER_APP_PROFILE_STRING": "Internet Explorer",
+    "FPS_BROWSER_USER_PROFILE_STRING": "Default",
+    "HOME": "C:\\Users\\Matheus Duarte",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\Matheus Duarte",
+    "HOSTNAME": "DUARTTES-HOME",
+    "INFOPATH": "C:\\Program Files\\Git\\usr\\local\\info;C:\\Program Files\\Git\\usr\\share\\info;C:\\Program Files\\Git\\usr\\info;C:\\Program Files\\Git\\share\\info",
+    "INIT_CWD": "D:\\Users\\Matheus Duarte\\Documents\\conceitoReactNative\\mobile\\android",
+    "JAVA_HOME": "C:\\Program Files\\Java\\jdk1.8.0_211",
+    "JEST_WORKER_ID": "1",
+    "LANG": "pt_BR.UTF-8",
+    "LOCALAPPDATA": "C:\\Users\\Matheus Duarte\\AppData\\Local",
+    "LOGONSERVER": "\\\\DUARTTES-HOME",
+    "MANPATH": "C:\\Program Files\\Git\\mingw64\\local\\man;C:\\Program Files\\Git\\mingw64\\share\\man;C:\\Program Files\\Git\\usr\\local\\man;C:\\Program Files\\Git\\usr\\share\\man;C:\\Program Files\\Git\\usr\\man;C:\\Program Files\\Git\\share\\man",
+    "MINGW_CHOST": "x86_64-w64-mingw32",
+    "MINGW_PACKAGE_PREFIX": "mingw-w64-x86_64",
+    "MINGW_PREFIX": "C:/Program Files/Git/mingw64",
+    "MSYSTEM": "MINGW64",
+    "MSYSTEM_CARCH": "x86_64",
+    "MSYSTEM_CHOST": "x86_64-w64-mingw32",
+    "MSYSTEM_PREFIX": "C:/Program Files/Git/mingw64",
+    "NODE": "C:\\Program Files\\nodejs\\node.exe",
+    "NODE_ENV": "test",
+    "npm_config_argv": "{\"remain\":[],\"cooked\":[\"run\",\"test\"],\"original\":[\"test\"]}",
+    "npm_config_bin_links": "true",
+    "npm_config_ignore_optional": "",
+    "npm_config_ignore_scripts": "",
+    "npm_config_init_license": "MIT",
+    "npm_config_init_version": "1.0.0",
+    "npm_config_registry": "https://registry.yarnpkg.com",
+    "npm_config_save_prefix": "^",
+    "npm_config_strict_ssl": "true",
+    "npm_config_user_agent": "yarn/1.22.0 npm/? node/v12.16.1 win32 x64",
+    "npm_config_version_commit_hooks": "true",
+    "npm_config_version_git_message": "v%s",
+    "npm_config_version_git_sign": "",
+    "npm_config_version_git_tag": "true",
+    "npm_config_version_tag_prefix": "v",
+    "npm_execpath": "C:\\Program Files (x86)\\Yarn\\bin\\yarn.js",
+    "npm_lifecycle_event": "test",
+    "npm_lifecycle_script": "jest",
+    "npm_node_execpath": "C:\\Program Files\\nodejs\\node.exe",
+    "npm_package_dependencies_axios": "^0.19.2",
+    "npm_package_dependencies_axios_mock_adapter": "^1.18.1",
+    "npm_package_dependencies_node": "^14.0.0",
+    "npm_package_dependencies_react": "16.11.0",
+    "npm_package_dependencies_react_native": "0.62.1",
+    "npm_package_dependencies__testing_library_jest_native": "^3.1.0",
+    "npm_package_dependencies__types_jest": "^25.2.1",
+    "npm_package_devDependencies_babel_jest": "^25.2.6",
+    "npm_package_devDependencies_eslint": "^6.8.0",
+    "npm_package_devDependencies_jest": "^25.2.7",
+    "npm_package_devDependencies_metro_react_native_babel_preset": "^0.59.0",
+    "npm_package_devDependencies_react_test_renderer": "16.11.0",
+    "npm_package_devDependencies__babel_core": "^7.9.0",
+    "npm_package_devDependencies__babel_plugin_proposal_class_properties": "^7.8.3",
+    "npm_package_devDependencies__babel_plugin_transform_flow_strip_types": "^7.9.0",
+    "npm_package_devDependencies__babel_runtime": "^7.9.2",
+    "npm_package_devDependencies__react_native_community_eslint_config": "^1.0.0",
+    "npm_package_devDependencies__testing_library_react_native": "^5.0.3",
+    "npm_package_name": "mobile",
+    "npm_package_private": "true",
+    "npm_package_scripts_android": "react-native run-android",
+    "npm_package_scripts_ios": "react-native run-ios",
+    "npm_package_scripts_lint": "eslint .",
+    "npm_package_scripts_start": "react-native start",
+    "npm_package_scripts_test": "jest",
+    "npm_package_version": "0.0.1",
+    "NUMBER_OF_PROCESSORS": "16",
+    "OLDPWD": "D:/Users/Matheus Duarte/Documents/conceitoReactNative",
+    "OneDrive": "C:\\Users\\Matheus Duarte\\OneDrive",
+    "ORIGINAL_PATH": "C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\Matheus Duarte\\bin;C:\\Python27;C:\\Python27\\Scripts;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files (x86)\\Yarn\\bin;C:\\Program Files\\Java\\jdk1.8.0_211\\bin;C:\\Android\\Sdk\\platform-tools;C:\\Android\\Sdk\\tools;C:\\Android\\Sdk\\emulator;C:\\Android\\Sdk\\tools\\bin;C:\\Users\\Matheus Duarte\\AppData\\Local\\Microsoft\\WindowsApps;D:\\Users\\Matheus Duarte\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Matheus Duarte\\AppData\\Roaming\\npm;C:\\Users\\Matheus Duarte\\AppData\\Local\\Yarn\\bin",
+    "ORIGINAL_TEMP": "C:/Users/MATHEU~1/AppData/Local/Temp",
+    "ORIGINAL_TMP": "C:/Users/MATHEU~1/AppData/Local/Temp",
+    "OS": "Windows_NT",
+    "PATH": "C:\\Users\\MATHEU~1\\AppData\\Local\\Temp\\yarn--1587572420452-0.7342266334609622;D:\\Users\\Matheus Duarte\\Documents\\conceitoReactNative\\mobile\\node_modules\\.bin;C:\\Users\\Matheus Duarte\\AppData\\Local\\Yarn\\Data\\link\\node_modules\\.bin;C:\\Program Files\\libexec\\lib\\node_modules\\npm\\bin\\node-gyp-bin;C:\\Program Files\\lib\\node_modules\\npm\\bin\\node-gyp-bin;C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\node-gyp-bin;C:\\Users\\Matheus Duarte\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\local\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\Matheus Duarte\\bin;C:\\Python27;C:\\Python27\\Scripts;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files (x86)\\Yarn\\bin;C:\\Program Files\\Java\\jdk1.8.0_211\\bin;C:\\Android\\Sdk\\platform-tools;C:\\Android\\Sdk\\tools;C:\\Android\\Sdk\\emulator;C:\\Android\\Sdk\\tools\\bin;C:\\Users\\Matheus Duarte\\AppData\\Local\\Microsoft\\WindowsApps;D:\\Users\\Matheus Duarte\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Matheus Duarte\\AppData\\Roaming\\npm;C:\\Users\\Matheus Duarte\\AppData\\Local\\Yarn\\bin;C:\\Program Files\\Git\\usr\\bin\\vendor_perl;C:\\Program Files\\Git\\usr\\bin\\core_perl",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC;.CPL",
+    "PKG_CONFIG_PATH": "C:\\Program Files\\Git\\mingw64\\lib\\pkgconfig;C:\\Program Files\\Git\\mingw64\\share\\pkgconfig",
+    "PLINK_PROTOCOL": "ssh",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "AMD64 Family 23 Model 8 Stepping 2, AuthenticAMD",
+    "PROCESSOR_LEVEL": "23",
+    "PROCESSOR_REVISION": "0802",
+    "ProgramData": "C:\\ProgramData",
+    "PROGRAMFILES": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\Users\\Matheus Duarte\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "PWD": "D:/Users/Matheus Duarte/Documents/conceitoReactNative/mobile",
+    "SESSIONNAME": "Console",
+    "SHELL": "C:\\Program Files\\Git\\usr\\bin\\bash.exe",
+    "SHLVL": "2",
+    "SSH_ASKPASS": "C:/Program Files/Git/mingw64/libexec/git-core/git-gui--askpass",
+    "SYSTEMDRIVE": "C:",
+    "SYSTEMROOT": "C:\\Windows",
+    "TEMP": "C:\\Users\\MATHEU~1\\AppData\\Local\\Temp",
+    "TERM": "xterm",
+    "TERM_PROGRAM": "vscode",
+    "TERM_PROGRAM_VERSION": "1.44.2",
+    "TMP": "C:\\Users\\MATHEU~1\\AppData\\Local\\Temp",
+    "TMPDIR": "C:\\Users\\MATHEU~1\\AppData\\Local\\Temp",
+    "USERDOMAIN": "DUARTTES-HOME",
+    "USERDOMAIN_ROAMINGPROFILE": "DUARTTES-HOME",
+    "USERNAME": "Matheus Duarte",
+    "USERPROFILE": "C:\\Users\\Matheus Duarte",
+    "WINDIR": "C:\\Windows",
+    "YARN_WRAP_OUTPUT": "false",
+    "_": "D:/Users/Matheus Duarte/AppData/Local/Programs/Microsoft VS Code/Code.exe"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\Windows\\SYSTEM32\\ntdll.dll",
+    "C:\\Windows\\System32\\KERNEL32.DLL",
+    "C:\\Windows\\System32\\KERNELBASE.dll",
+    "C:\\Windows\\System32\\WS2_32.dll",
+    "C:\\Windows\\System32\\RPCRT4.dll",
+    "C:\\Windows\\SYSTEM32\\dbghelp.dll",
+    "C:\\Windows\\System32\\PSAPI.DLL",
+    "C:\\Windows\\System32\\ucrtbase.dll",
+    "C:\\Windows\\System32\\ADVAPI32.dll",
+    "C:\\Windows\\System32\\msvcrt.dll",
+    "C:\\Windows\\System32\\sechost.dll",
+    "C:\\Windows\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\Windows\\SYSTEM32\\USERENV.dll",
+    "C:\\Windows\\System32\\USER32.dll",
+    "C:\\Windows\\System32\\profapi.dll",
+    "C:\\Windows\\System32\\win32u.dll",
+    "C:\\Windows\\System32\\GDI32.dll",
+    "C:\\Windows\\System32\\gdi32full.dll",
+    "C:\\Windows\\System32\\msvcp_win.dll",
+    "C:\\Windows\\System32\\CRYPT32.dll",
+    "C:\\Windows\\System32\\MSASN1.dll",
+    "C:\\Windows\\System32\\bcrypt.dll",
+    "C:\\Windows\\SYSTEM32\\WINMM.dll",
+    "C:\\Windows\\SYSTEM32\\winmmbase.dll",
+    "C:\\Windows\\System32\\cfgmgr32.dll",
+    "C:\\Windows\\System32\\bcryptPrimitives.dll",
+    "C:\\Windows\\System32\\IMM32.DLL",
+    "C:\\Windows\\System32\\powrprof.dll",
+    "C:\\Windows\\System32\\UMPDC.dll",
+    "C:\\Windows\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\Windows\\system32\\uxtheme.dll",
+    "C:\\Windows\\System32\\combase.dll",
+    "C:\\Windows\\system32\\mswsock.dll",
+    "C:\\Windows\\System32\\kernel.appcore.dll",
+    "C:\\Windows\\System32\\NSI.dll",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\Windows\\SYSTEM32\\DNSAPI.dll",
+    "C:\\Windows\\system32\\napinsp.dll",
+    "C:\\Windows\\system32\\pnrpnsp.dll",
+    "C:\\Windows\\System32\\winrnr.dll",
+    "C:\\Windows\\system32\\NLAapi.dll",
+    "C:\\Windows\\system32\\wshbth.dll"
+  ]
+}
